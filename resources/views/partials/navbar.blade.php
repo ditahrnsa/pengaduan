@@ -12,13 +12,13 @@
    <!-- Notifications Dropdown Menu -->
       <li class="nav-item dropdown">
         <a class="nav-link" data-toggle="dropdown" href="#">
-          Admin
+          {{ Auth::user()->username }}
           </a>
         <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
           <a href="#" class="dropdown-item" id="logout">
             <i class="fa fa-sign-out mr2"></i> Logout
           </a>
-            <form method="POST" action="{{ route('logout')}}" id="form-logout" class="dropdown-item">
+            <form action="{{ route('logout')}}" id="form-logout" class="dropdown-item">
               @csrf
             </form>
    <!-- Messages Dropdown Menu -->

@@ -11,7 +11,16 @@
 |
 */
 Route::get('/', 'HandlerController@landing')->name('landing');
-Route::get('/login', 'AuthController@getLogin')->name('getLogin')->middleware('guest');
+
+// 
+
+Route::get('/as', function (){
+	return view('index');
+});
+
+// 
+
+Route::get('/login/a', 'AuthController@getLogin')->name('getLogin')->middleware('guest');
 
 Route::get('/register', 'AuthController@getRegister')->name('getRegister')->middleware('guest');
 
@@ -19,14 +28,25 @@ Route::post('p/login', 'AuthController@postLogin')->name('postLogin');
 
 Route::post('p/reg', 'AuthController@postRegister')->name('postRegister');
 
-Route::get('/dashboard', 'HandlerController@dashboard')->name('dashboard');
-
 Route::get('init', 'HandlerController@init')->name('init')->middleware('auth');
 
-Route::resource('laporan', 'LaporanController');
+
 
 Route::middleware('auth')->group(function (){
 
+	Route::get('/dashboard', 'HandlerController@dashboard')->name('dashboard');
+
+	Route::resource('laporan', 'LaporanController');
+
 });
 
-Route::post('/logout', 'AuthController@logout')->name('logout')->middleware('auth');
+Route::middleware('auth')->group(function (){
+
+	Route::get('/dashboard', 'HandlerController@dashboard')->name('dashboard');
+
+	Route::resource('konfirmasi', 'KonfirmasiController');
+
+});
+
+
+Route::get('/logout', 'AuthController@logout')->name('logout')->middleware('auth');

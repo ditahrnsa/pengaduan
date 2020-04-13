@@ -33,7 +33,7 @@
                 <div class="checkbox md3">
                 <label>
                  belum punya akun ?
-                  <a href="{{ route('getLogin')}}">
+                  <a href="{{ route('getRegister') }}">
                     Daftar
                   </a>
                 </label>

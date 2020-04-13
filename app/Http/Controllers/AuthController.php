@@ -10,7 +10,7 @@ class AuthController extends Controller
 {
     public function getLogin()
     {
-    	return view('auth.login');
+    	return view('index');
     }
 
     public function postLogin(Request $request)
@@ -29,7 +29,7 @@ class AuthController extends Controller
 
     public function getRegister()
     {
-    	return view ('auth.Register');
+    	return view ('index2');
     }
 
     public function postRegister(Request $request)
@@ -62,7 +62,7 @@ class AuthController extends Controller
     	return redirect()->route('dashboard');
     }
 
-    public function logout( Request $request)
+    public function logout()
     {
         Auth::logout();
         return redirect()->route('getLogin')->with('msgSuccess', "Berhasil logout dude");

@@ -1,0 +1,143 @@
+.animate-bgImageInfinite{
+  animation-name: bgImageInfinite;
+  animation-duration: 15s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes bgImageInfinite {
+  0%{
+    transform: scaleX(1) scaleY(1);
+  }
+  25%{
+    transform: scaleX(1.5) scaleY(1.5) skew(-5deg) rotate(5deg);
+  }
+  50%{
+    transform: scaleX(1) scaleY(1);
+  }
+  75%{
+    transform: scaleX(1.5) scaleY(1.5) skew(5deg) rotate(-5deg);
+  }
+  100%{
+    transform: scaleX(1) scaleY(1);
+  }
+}
+
+.animate-bgImage{
+  animation-name: bgImage;
+  animation-duration: .5s;
+}
+@keyframes bgImage {
+  from{
+    transform: scale(3);
+  }
+  to{
+    transform: scale(1);
+  }
+}
+
+.animate-heading{
+  animation-name: heading;
+  animation-duration: 2s;
+}
+@keyframes heading {
+  from{
+    transform: scaleY(0) scaleX(0) translateY(100%);
+  }
+  to{
+
+  }
+}
+
+.animate-label{
+  animation-name: label;
+  animation-duration: 2.5s;
+}
+@keyframes label {
+  0%{
+    margin-left: -300px;
+  }
+  50%{
+    margin-left: 100px;
+  }
+  100%{
+
+  }
+}
+
+.animate-border{
+  animation-name: border;
+  animation-duration: 3s;
+}
+@keyframes border {
+  0%{
+    margin-left: -300px;
+    transform: scale(0);
+  }
+  50%{
+    margin-left: 100px;
+    transform: scale(1.5);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+.animate-locate{
+  animation-name: locate;
+  animation-duration: 2s;
+}
+@keyframes locate {
+  0%{
+    transform: scale(0) translateY(20px);
+    opacity: 0;
+  }
+  50%{
+    transform: scale(1.2)  translateY(-20px);
+    opacity: 1;
+  }
+  100%{
+  }
+}
+
+.animate-button{
+  animation-name: button;
+  animation-duration: 1.5s;
+}
+@keyframes button {
+  0%{
+    transform: scale(0);
+  }
+  50%{
+    transform: scale(1);
+  }
+  100%{
+
+  }
+}
+
+.animate-bannerLoader{
+  animation-name: bannerLoader;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+@keyframes bannerLoader {
+  from{
+
+  }
+  to{
+    width:100%;
+  }
+}
+
+@keyframes discover-img {
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.3);
+  }
+  100%{
+    transform: scale(1);
+  }
+}

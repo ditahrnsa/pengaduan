@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="210mm" height="150.077mm" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 210 150.077"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:#008FF5}
+    .fil0 {fill:#F7B100}
+   ]]>
+  </style>
+     <clipPath id="id0">
+      <rect x="-5.4768" y="-5.9011" width="228.626" height="168.4"/>
+     </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_125467256">
+   <g id="Layer_1" data-name="Layer 1">
+    <path id="_125468384" class="fil0" d="M-0.9984 149.778c0,0 52.7309,-9.4923 91.1565,-57.9527 0,0 34.8697,-27.7133 61.5173,-11.0308 0,0 5.1896,-25.8174 28.8926,-35.3581 0,0 19.6653,-10.1888 29.069,-38.7683l-0.0001 143.11 -210.635 0z"/>
+    <g style="clip-path:url(#id0)">
+     <image id="_125469056" transform="matrix(1 0 0 1 -110.477 87.4608)" x="105" y="-93.3619" width="228.626" height="168.4" xlink:href="sudut-pattern4_Images\sudut-pattern4_ImgID1.png"/>
+    </g>
+    <path id="_125469248" class="fil1" d="M-0.5223 149.173c0,0 31.8489,-9.4438 42.0637,-18.4938 0,0 -29.1924,13.9687 -38.1024,9.2438 0,0 31.2789,2.7562 68.8169,-36.7876 37.538,-39.5437 68.2468,-36 74.8822,-30.4876 0,0 1.1754,-14.4958 35.0696,-37.5569 0,0 24.996,-20.2322 27.441,-35.8972 0,0 0.3644,15.7012 -27.1883,42.4514 0,0 20.4176,-12.951 27.5174,-35.5337 0,0 -4.1141,24.2666 -27.1412,39.4771 0,0 -12.5127,8.6502 -17.3145,13.8961 0,0 9.6035,-5.1186 12.6361,1.0479 0,0 -3.5264,-6.4271 -14.029,1.3085 -2.0615,1.5756 -3.7178,3.6599 -4.8024,6.0572 -1.0847,2.3972 14.453,-14.4348 16.3279,-4.2339 0,0 -1.1755,-10.3948 -16.3035,6.0576 0,0 -8.2282,15.4771 5.4365,23.7396 0,0 -3.979,2.1324 -16.7796,-8.0989 0,0 -26.1891,-17.2095 -59.3016,15.3135 -0.0001,-0.0243 -36.404,42.4392 -89.2288,48.4969z"/>
+   </g>
+  </g>
+ </g>
+</svg>

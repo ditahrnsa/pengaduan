@@ -22,7 +22,7 @@ class HandlerController extends Controller
     	}else{
     		if (Auth::user()->level == 'petugas') {
 
-    			if (Auth::user()->petugas->level == 'admin') {
+    			if (Auth::user()->petugas[0]->level == 'admin') {
     				return redirect()->route('dashboard');
 
     			}else if (Auth::user()->petugas[0]->level == 'petugas') {

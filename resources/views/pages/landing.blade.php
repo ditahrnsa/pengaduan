@@ -15,13 +15,11 @@
     <link rel="stylesheet" href="{{ asset('temp/css/bootstrap-datepicker.css')}}">
     <link rel="stylesheet" href="{{ asset('temp/fonts/flaticon/font/flaticon.css')}}">
     <link rel="stylesheet" href="{{ asset('temp/css/aos.css')}}">
-
     <link rel="stylesheet" href="{{ asset('temp/css/style.css')}}">
   </head>
   <body>
   
   <div class="site-wrap">
-
     <div class="site-mobile-menu">
       <div class="site-mobile-menu-header">
         <div class="site-mobile-menu-close mt-3">
@@ -40,11 +38,14 @@
           <div class="col-12 col-md-10 d-none d-xl-block">
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="login">Masuk</a></li>
-                <li><a href="register">Daftar</a></li>
- <!--                <li><a href="news.html">News</a></li>
-                <li><a href="contact.html">Contacts</a></li> -->
+            <li class="active"><a href="index.html">Home</a></li>
+              @guest
+            <li><a href="{{ route('getLogin') }}">Masuk</a></li>
+            <li><a href="{{ route('getRegister') }}">Daftar</a></li>
+              @endguest
+              @auth
+            <li><a href="#">{{ Auth::user()->username }}</a></li>
+              @endauth
               </ul>
             </nav>
           </div>
@@ -61,9 +62,7 @@
             <span class="d-block mb-3 caption" data-aos="fade-up" data-aos-delay="100">PELAMAR</span>
             <h1 class="d-block mb-4" data-aos="fade-up" data-aos-delay="200">Pengaduan Layanan Masyarakat</h1>
             <span class="d-block mb-5 caption" data-aos="fade-up" data-aos-delay="300"></span>
-
-            <a href="#" class="btn-custom" data-aos="fade-up" data-aos-delay="400"><span>Yo Lapor</span></a>
-        
+            <a href="{{ route('laporan.index') }}" class="btn-custom" data-aos="fade-up" data-aos-delay="400"><span>Yo Lapor</span></a>
           </div>
         </div>
       </div>
