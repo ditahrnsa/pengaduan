@@ -33,7 +33,7 @@
       <div class="container-fluid">
         <div class="row align-items-center">
           <div class="col-11 col-xl-2">
-            <h1 class="mb-0"><a href="index.html" class="text-white h2 mb-0">Pel<span class="text-primary">amar</span> </a></h1>
+            <h1 class="mb-0"><a href="index.html" class="text-white h2 mb-0">PEL<span class="text-primary"></span>AMAR</a></h1>
           </div>
           <div class="col-12 col-md-10 d-none d-xl-block">
             <nav class="site-navigation position-relative text-right" role="navigation">
@@ -42,6 +42,7 @@
               @guest
             <li><a href="{{ route('getLogin') }}">Masuk</a></li>
             <li><a href="{{ route('getRegister') }}">Daftar</a></li>
+
               @endguest
               @auth
             <li><a href="#">{{ Auth::user()->username }}</a></li>
@@ -59,7 +60,7 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-10">
-            <span class="d-block mb-3 caption" data-aos="fade-up" data-aos-delay="100">PELAMAR</span>
+            <span class="d-block mb-3 caption" data-aos="fade-up" data-aos-delay="100"></span>
             <h1 class="d-block mb-4" data-aos="fade-up" data-aos-delay="200">Pengaduan Layanan Masyarakat</h1>
             <span class="d-block mb-5 caption" data-aos="fade-up" data-aos-delay="300"></span>
             <a href="{{ route('laporan.index') }}" class="btn-custom" data-aos="fade-up" data-aos-delay="400"><span>Yo Lapor</span></a>
@@ -75,7 +76,7 @@
         <div class="row mb-5">
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="site-section-heading">
-              <h2>N E W S</h2>
+              <h2>PELAMAR</h2>
             </div>
           </div>
           <div class="col-lg-5 mt-5 pl-lg-5" data-aos="fade-up" data-aos-delay="200">
@@ -84,85 +85,27 @@
 
         <div class="row align-items-center speaker">
           <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="100">
-            <img src="{{ asset('temp/images/person_1.jpg') }}" alt="Image" class="img-fluid">
+            <img src="{{ asset('login/img/pelamar.jpg') }}" alt="Image" class="img-fluid">
           </div>
           <div class="col-lg-6 ml-auto">
-            <h2 class="text-white mb-4 name" data-aos="fade-right" data-aos-delay="200">Emely Peters</h2>
+            <h2 class="text-white mb-4 name" data-aos="fade-right" data-aos-delay="200">Apa itu PELAMAR ?</h2>
             <div class="bio pl-lg-5">
-              <span class="text-uppercase text-primary d-block mb-3" data-aos="fade-right" data-aos-delay="300">Web Designer</span>
-              <p class="mb-4" data-aos="fade-right" data-aos-delay="400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus. Minima architecto impedit eaque molestiae dicta quam. Cum ducimus. Culpa distinctio aperiam</p>
-              <p data-aos="fade-right" data-aos-delay="500">
-                Follow Emely &mdash;
-                <a href="#" class="p-2"><span class="icon-facebook"></span></a>
-                <a href="#" class="p-2"><span class="icon-twitter"></span></a>
-                <a href="#" class="p-2"><span class="icon-github"></span></a>
-              </p>
+              <p class="mb-4" data-aos="fade-right" data-aos-delay="400">Pelamar adalah aplikasi berbasis web yang mencoba mewakili suara rakyat untuk meyampaikan kelukan, keresahan, aspirasinya dantindak kriminal yang terjadi di area sekitar . </p>
             </div>
           </div>
-        </div>
+        </div><br><br><br>
 
         <div class="row align-items-center speaker">
           <div class="col-lg-6 mb-5 mb-lg-0 order-lg-2" data-aos="fade" data-aos-delay="100">
-            <img src="{{asset('temp/images/person_2.jpg')}}" alt="Image" class="img-fluid">
+            <img src="{{asset('login/img/box.png')}}" alt="Image" class="img-fluid">
           </div>
           <div class="col-lg-6 ml-auto order-lg-1">
-            <h2 class="text-white mb-4 name" data-aos="fade-left" data-aos-delay="200">Alex Anchor</h2>
+            <h2 class="text-white mb-4 name" data-aos="fade-left" data-aos-delay="200">Tujuan Pelamar</h2>
             <div class="bio pr-lg-5">
-              <span class="text-uppercase text-primary d-block mb-3" data-aos="fade-left" data-aos-delay="300">Web Designer</span>
-              <p class="mb-4" data-aos="fade-left" data-aos-delay="400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus. Minima architecto impedit eaque molestiae dicta quam. Cum ducimus. Culpa distinctio aperiam</p>
-              <p data-aos="fade-left" data-aos-delay="500">
-                Follow Alex &mdash;
-                <a href="#" class="p-2"><span class="icon-facebook"></span></a>
-                <a href="#" class="p-2"><span class="icon-twitter"></span></a>
-                <a href="#" class="p-2"><span class="icon-github"></span></a>
-              </p>
+              <p class="mb-4" data-aos="fade-left" data-aos-delay="400">Aplikasi pelaporan layanan masyarakat ini dibuat untuk memudahkan masyarakat dalam pelaporan segala ketidaknyamanan yang terjadi ditempat</p>
             </div>
           </div>
         </div>
-
-        <div class="row align-items-center speaker">
-          <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="100">
-            <img src="{{asset('temp/images/person_3.jpg')}}" alt="Image" class="img-fluid">
-          </div>
-          <div class="col-lg-6 ml-auto">
-            <h2 class="text-white mb-4 name" data-aos="fade-right" data-aos-delay="200">Aaron Thomas</h2>
-            <div class="bio pl-lg-5">
-              <span class="text-uppercase text-primary d-block mb-3" data-aos="fade-right" data-aos-delay="300">Web Designer</span>
-              <p class="mb-4" data-aos="fade-right" data-aos-delay="400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus. Minima architecto impedit eaque molestiae dicta quam. Cum ducimus. Culpa distinctio aperiam</p>
-              <p data-aos="fade-right" data-aos-delay="500">
-                Follow Aaron &mdash;
-                <a href="#" class="p-2"><span class="icon-facebook"></span></a>
-                <a href="#" class="p-2"><span class="icon-twitter"></span></a>
-                <a href="#" class="p-2"><span class="icon-github"></span></a>
-              </p>
-            </div>
-          </div>
-        </div>
-
-      
-        <div class="row align-items-center speaker">
-          <div class="col-lg-6 mb-5 mb-lg-0 order-lg-2" data-aos="fade" data-aos-delay="100">
-            <img src="{{asset('temp/images/person_4.jpg')}}" alt="Image" class="img-fluid">
-          </div>
-          <div class="col-lg-6 ml-auto order-lg-1">
-            <h2 class="text-white mb-4 name" data-aos="fade-left" data-aos-delay="200">Chris Mathews</h2>
-            <div class="bio pr-lg-5">
-              <span class="text-uppercase text-primary d-block mb-3" data-aos="fade-left" data-aos-delay="300">Web Designer</span>
-              <p class="mb-4" data-aos="fade-left" data-aos-delay="400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus. Minima architecto impedit eaque molestiae dicta quam. Cum ducimus. Culpa distinctio aperiam</p>
-              <p data-aos="fade-left" data-aos-delay="500">
-                Follow Chris &mdash;
-                <a href="#" class="p-2"><span class="icon-facebook"></span></a>
-                <a href="#" class="p-2"><span class="icon-twitter"></span></a>
-                <a href="#" class="p-2"><span class="icon-github"></span></a>
-              </p>
-            </div>
-          </div>
-        </div>
-
-        
-      </div>
-    </div>
-
 
     
     <div class="site-section">
@@ -170,91 +113,97 @@
         <div class="row mb-5">
           <div class="col-lg-4" data-aos="fade-up">
             <div class="site-section-heading">
-              <h2>Programs</h2>
+              <h2>Prosedur</h2>
             </div>
           </div>
           <div class="col-lg-6 mt-5 pl-lg-5" data-aos="fade-up" data-aos-delay="100">
-           <!--  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus.</p> -->
           </div>
-        </div>
 
-        <div class="row align-items-stretch program">
-          <div class="col-12 border-top border-bottom py-5" data-aos="fade" data-aos-delay="200">
-            <div class="row align-items-stretch">
-              <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">8:00</span> <span>AM</span></div>
-              <div class="col-md-9">
-                <h2 class="text-white">Design your open source strategy</h2>
-                <span>Chris Mathews</span>
+        </div>
+           <div class="row align-items-stretch program">
+            <div class="col-12 border-top border-bottom py-5" data-aos="fade" data-aos-delay="200">
+             <div class="row align-items-stretch">
+              <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4"></span> 
+                <img src="{{ asset('login/img/user.png') }}" alt="Image" class="img-fluid">
+                </div>
+                <div class="col-md-9">
+                <h2 class="text-white">Daftar/Masuk</h2>
+                <span>Daftar terlebih dahulu setelah itu silahkan login dan lapokan apa yang ingin disampaikan </span>
               </div>
             </div>
           </div>
 
           <div class="col-12 border-bottom py-5" data-aos="fade" data-aos-delay="300">
             <div class="row align-items-stretch">
-              <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">9:30</span> <span>AM</span></div>
-              <div class="col-md-9">
-                <h2 class="text-white">Design your open source strategy</h2>
-                <span>Chris Mathews</span>
+              <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4"></span>
+                <img src="{{ asset('login/img/creat.png') }}" alt="Image"class="img-fluid">
+                </div>
+                <div class="col-md-9">
+                <h2 class="text-white">Tulis Pengaduan</h2>
+                <span>Laporkan keresahan dan aspirasi anda di Pelamar(Pengaduan Layanan Masyarakat) secara substantial</span>
               </div>
             </div>
           </div>
 
           <div class="col-12 border-bottom py-5" data-aos="fade" data-aos-delay="400">
             <div class="row align-items-stretch">
-              <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">10:30</span> <span>AM</span></div>
-              <div class="col-md-9">
-                <h2 class="text-white">Design your open source strategy</h2>
-                <span>Chris Mathews</span>
+              <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4"></span>
+                <img src="{{ asset('login/img/paper.png') }}" alt="Image"class="img-fluid">
               </div>
-            </div>
-          </div>
-
-          <div class="col-12 border-bottom py-5" data-aos="fade" data-aos-delay="500">
-            <div class="row align-items-stretch">
-              <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">10:45</span> <span>NOON</span></div>
               <div class="col-md-9">
-                <h2 class="text-white">Break With Snacks</h2>
+                <h2 class="text-white">Proses Verifikasi</h2>
+                <span>Setelah pengaduan, kami akan memverifikasi terkait pengaduan yang terjadi </span>
               </div>
             </div>
           </div>
 
           <div class="col-12 border-bottom py-5" data-aos="fade" data-aos-delay="600">
             <div class="row align-items-stretch">
-              <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">11:30</span> <span>AM</span></div>
+              <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4"></span> 
+              <img src="{{ asset('login/img/alert.png')}}" alt="Image"class="img-fluid">
+              </div>
               <div class="col-md-9">
-                <h2 class="text-white">Design your open source strategy</h2>
-                <span>Chris Mathews</span>
+                <h2 class="text-white">Proses Tindak Lanjut</h2>
+                <span>Kami juga akan memproses terkait hal yang diadukan </span>
               </div>
             </div>
           </div>
 
-          <div class="col-12 border-bottom py-5" data-aos="fade" data-aos-delay="700">
+
+          <div class="col-12 border-bottom py-5" data-aos="fade" data-aos-delay="600">
             <div class="row align-items-stretch">
-              <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">12:00</span> <span>NOON</span></div>
+              <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4"></span> 
+              <img src="{{ asset('login/img/chat.png')}}" alt="Image"class="img-fluid" style="height: 90px;" height="45px;">
+              </div>
               <div class="col-md-9">
-                <h2 class="text-white">Break For Lunch</h2>
+                <h2 class="text-white">Tanggapan</h2>
+                <span>Setalah proses tindak lanjut berhasil kami akan memberi tanggapaan mengenai masalah yang terkait </span>
               </div>
             </div>
           </div>
 
-
+          <div class="col-12 border-bottom py-5" data-aos="fade" data-aos-delay="600">
+            <div class="row align-items-stretch">
+              <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4"></span> 
+              <img src="{{ asset('login/img/checked.png')}}" alt="Image"class="img-fluid" style="height: 65%" height="35%">
+              </div>
+              <div class="col-md-9">
+                <h2 class="text-white">Selesai</h2>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-
-
-
     <div class="site-section">
       <div class="container">
         <div class="row mb-5">
           <div class="col-lg-4">
             <div class="site-section-heading" data-aos="fade-up">
-              <h2>News</h2>
+              <h2>Contoh Kasus Pengaduan</h2>
             </div>
           </div>
           <div class="col-lg-6 mt-5 pl-lg-5" data-aos="fade-up" data-aos-delay="100">
-       <!--      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus</p>
- -->          </div>
+         </div>
         </div>
 
         <div class="row mb-5">
@@ -267,8 +216,7 @@
               <div class="mr-2"><img src="{{asset('temp/images/detik.jpg')}}" alt="Image" class="img-fluid"></div>
               <div><span>By <a href="#">Sugeng Harianto, detiknews</a></span> &mdash; <span>Mar. 09, 2020</span></div> 
             </div>
-           <!--  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus.
- -->          </div>
+          </div>
 
           <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 blog-entry" data-aos="fade-up" data-aos-delay="400">
             <a href="#" class="d-block mb-4">
@@ -277,9 +225,8 @@
             <h2 class="mb-4"><a href="#">Ciri - ciri Penipuan Pakai Swafoto Wajah dan KTP</a></h2>
             <div class="mb-4 post-meta d-flex align-items-center">
               <div class="mr-2"><img src="{{asset('temp/images/download.png')}}" alt="Image" class="img-fluid"></div>
-              <div><span>By <a href="#">CNN, Indonesia</a></span> &mdash; <span>Sep. 08, 2019</span></div> 
+              <div><span>By <a href="#">CNN, Tiwi Putri Bandung</a></span> &mdash; <span>Sep. 08, 2019</span></div> 
             </div>
-      <!--       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus. -->
           </div>
 
           <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 blog-entry" data-aos="fade-up" data-aos-delay="400">
@@ -289,9 +236,8 @@
             <h2 class="mb-4"><a href="#">Banjir Jakarta</a></h2>
             <div class="mb-4 post-meta d-flex align-items-center">
               <div class="mr-2"><img src="{{asset('temp/images/bbc.png')}}" alt="Image" class="img-fluid"></div>
-              <div><span>By <a href="#">CNN, Indonesia</a></span> &mdash; <span>Jan. 05, 2020</span></div> 
+              <div><span>By <a href="#">CNN, Ananda Amelia Banten</a></span> &mdash; <span>Jan. 05, 2020</span></div> 
             </div>
-           <!--  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus. -->
           </div>
 
         </div>
@@ -307,8 +253,8 @@
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-4">
-            <h2 class="footer-heading text-uppercase mb-4">About Event</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit aliquid quibusdam fugit architecto.</p>
+            <h2 class="footer-heading text-uppercase mb-4">About</h2>
+            <p>Untuk saat ini PELAMAR sedang error, terimakasih</p>
           </div>
           <div class="col-md-3 ml-auto">
             <h2 class="footer-heading text-uppercase mb-4">Quick Links</h2>

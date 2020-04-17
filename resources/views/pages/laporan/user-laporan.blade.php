@@ -62,11 +62,7 @@
             <form action="simpan_pengaduan.php" method="post" class="form-horizontal" enctype="multipart/form-data">
               <div class="form group cols md-4 ">
                 <label>Tanggal Pengaduan :</label>
-                <input type="text" name="tgl_pengaduan" value="<?php echo date ('d/m/y');?>" class="form-control">
-              </div>
-              <div class="form-group cols-sm-6">
-                <label>NIK :</label>
-                <input type="text" name="nik" placeholder="nik" id="nik" class="form-control">
+                <input type="text" name="tgl_pengaduan" value="<?php echo date ('d/m/y');?>" class="form-control"><br>
               </div>
               <div class="form-group cols-sm-6">
                 <textarea class="form-control" rows="7" placeholder="Ketik Laporan Anda..... " name="isi_laporan "></textarea>
@@ -76,6 +72,24 @@
                 <input type="file" name="foto" class="form-control" accept=".jpg, .jpeg, .png" >
               </div>
 
+            <div class="form-group cols-sm-6">
+                <select name="select" class="form-control select2" style="background-color: black;">
+                    <option value ="1"> Covid-19</option>
+                    <option value ="2"> Corona - Bekerja dirumah</option>
+                    <option value ="3"> Corona - Dampak Ekonomi</option>
+                    <option value ="4"> Corona - Social Distancing</option>
+                    <option value ="5"> Corona - Karantina wilayah</option>
+                    <option value ="6"> Corona - Kekurangan Kebutuhan Logistik dan ADP</option>
+                    <option value ="7"> Corona - Rapid Test</option>
+                    <option value ="8"> Administrasi</option>
+                    <option value ="9"> BPJS ketenangakerjaan</option>
+                    <option value ="10"> Bidang Politik, Hukum, Keamanan</option>
+                    <option value ="11"> Damoak Lingkungan</option>
+                    <option value ="12"> Data dan Informasi Umum</option>
+                    <option value ="13"> Kejahan Kriminal</option>
+                </select>
+            </div>
+              <form>
               <div class="card-footer">
                   <button type="submit" class="btn btn-primary">Submit</button>
                 </div>
