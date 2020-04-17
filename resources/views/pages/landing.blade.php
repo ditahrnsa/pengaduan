@@ -69,44 +69,6 @@
       </div>
     </div>
 
-
-
-    <div class="site-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="site-section-heading">
-              <h2>PELAMAR</h2>
-            </div>
-          </div>
-          <div class="col-lg-5 mt-5 pl-lg-5" data-aos="fade-up" data-aos-delay="200">
-          </div>
-        </div>
-
-        <div class="row align-items-center speaker">
-          <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="100">
-            <img src="{{ asset('login/img/pelamar.jpg') }}" alt="Image" class="img-fluid">
-          </div>
-          <div class="col-lg-6 ml-auto">
-            <h2 class="text-white mb-4 name" data-aos="fade-right" data-aos-delay="200">Apa itu PELAMAR ?</h2>
-            <div class="bio pl-lg-5">
-              <p class="mb-4" data-aos="fade-right" data-aos-delay="400">Pelamar adalah aplikasi berbasis web yang mencoba mewakili suara rakyat untuk meyampaikan kelukan, keresahan, aspirasinya dantindak kriminal yang terjadi di area sekitar . </p>
-            </div>
-          </div>
-        </div><br><br><br>
-
-        <div class="row align-items-center speaker">
-          <div class="col-lg-6 mb-5 mb-lg-0 order-lg-2" data-aos="fade" data-aos-delay="100">
-            <img src="{{asset('login/img/box.png')}}" alt="Image" class="img-fluid">
-          </div>
-          <div class="col-lg-6 ml-auto order-lg-1">
-            <h2 class="text-white mb-4 name" data-aos="fade-left" data-aos-delay="200">Tujuan Pelamar</h2>
-            <div class="bio pr-lg-5">
-              <p class="mb-4" data-aos="fade-left" data-aos-delay="400">Aplikasi pelaporan layanan masyarakat ini dibuat untuk memudahkan masyarakat dalam pelaporan segala ketidaknyamanan yang terjadi ditempat</p>
-            </div>
-          </div>
-        </div>
-
     
     <div class="site-section">
       <div class="container">
@@ -194,6 +156,44 @@
           </div>
         </div>
       </div>
+
+        <div class="site-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="site-section-heading">
+              <h2>PELAMAR</h2>
+            </div>
+          </div>
+          <div class="col-lg-5 mt-5 pl-lg-5" data-aos="fade-up" data-aos-delay="200">
+          </div>
+        </div>
+
+        <div class="row align-items-center speaker">
+          <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="100">
+            <img src="{{ asset('login/img/pelamar.jpg') }}" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-6 ml-auto">
+            <h2 class="text-white mb-4 name" data-aos="fade-right" data-aos-delay="200">Apa itu PELAMAR ?</h2>
+            <div class="bio pl-lg-5">
+              <p class="mb-4" data-aos="fade-right" data-aos-delay="400">Pelamar adalah aplikasi berbasis web yang mencoba mewakili suara rakyat untuk meyampaikan kelukan, keresahan, aspirasinya dantindak kriminal yang terjadi di area sekitar . </p>
+            </div>
+          </div>
+        </div><br><br><br>
+
+        <div class="row align-items-center speaker">
+          <div class="col-lg-6 mb-5 mb-lg-0 order-lg-2" data-aos="fade" data-aos-delay="100">
+            <img src="{{asset('login/img/box.png')}}" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-6 ml-auto order-lg-1">
+            <h2 class="text-white mb-4 name" data-aos="fade-left" data-aos-delay="200">Tujuan Pelamar</h2>
+            <div class="bio pr-lg-5">
+              <p class="mb-4" data-aos="fade-left" data-aos-delay="400">Aplikasi pelaporan layanan masyarakat ini dibuat untuk memudahkan masyarakat dalam pelaporan segala ketidaknyamanan yang terjadi ditempat</p>
+            </div>
+          </div>
+        </div>
+
+      
     <div class="site-section">
       <div class="container">
         <div class="row mb-5">
